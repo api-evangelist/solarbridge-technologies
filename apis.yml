@@ -1,8 +1,28 @@
 aid: solarbridge-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solarbridge-technologies.png
 name: SolarBridge Technologies
-description: SolarBridge Technologies is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  SolarBridge Technologies was a solar power-electronics company that developed
+  AC photovoltaic (ACPV) technology for residential and commercial solar,
+  including its TrueAC modules, the Pantheon and Pantheon II microinverters, and
+  the SolarBridge Management System for monitoring installed systems. The company
+  was acquired by SunPower in 2014 and no longer operates as an independent
+  business; its former marketing site is preserved at solarbridgetech.com. It was
+  surfaced as a portfolio company of Battery Ventures and added to the API
+  Evangelist network. SolarBridge was a hardware and embedded-electronics
+  company and does not publish a public developer program, API, SDK, or
+  documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/solarbridge-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar
+- Energy
+- Renewable Energy
+- Microinverter
+- Photovoltaic
+- Hardware
+- Power Electronics
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/solarbridge-technologies-domain-security.yml
+- type: Website
+  url: https://solarbridgetech.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
