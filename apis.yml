@@ -60,6 +60,11 @@ x-enrichment:
   artifacts_added: 1
   pass: local-v1
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/sunpower/
+  name: SunPower
+  x-relationship: acquired
+  x-evidence: "The company was acquired by SunPower in 2014 and no longer operates as an independent business; its former marketing site is preserved at solarbridgetech."
 - type: DomainSecurity
   url: security/solarbridge-technologies-domain-security.yml
 - type: Website
